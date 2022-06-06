@@ -1,0 +1,92 @@
+/* GENERAL */
+body{
+  background-color: #b91450;
+ 
+  text-align: center;
+}
+
+/* Container */
+.mb-container-small{
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+
+.mb-container-style{
+  border-radius: 15px;
+}
+
+.mb-container-ticket{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+/* Paddings and Margin */
+.mb-paddings{
+  padding: 10px 60px;
+}
+
+.mb-buttons{
+  margin: 30px 0 10px;
+}
+
+.mb-buttons-style{
+  margin: 0 15px;
+}
+
+/* Text */
+.title{
+  text-transform: uppercase;
+  margin: 30px 0;
+  font-size: 30px;
+  font-weight: 700; 
+  color: white;
+}
+
+h2.title{
+  margin-bottom: 5px;
+}
+
+h5.title{
+  color: black;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 22px;
+  text-align: left;
+}
+
+.mb-text-label{
+  color: #e85870;
+  font-weight: 500;
+}
+
+/* Style */
+.mb-input-style{
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #e85870;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.mb-ticket-alignment{
+  padding-top: 50px;
+}
+
+.mb-ticket-color{
+  background-color: grey;
+  text-align: left;
+}
+
+.mb-ticket{
+  display: none;
+}
+
+.mb-ticket.active{
+  display: block;
+}
+
