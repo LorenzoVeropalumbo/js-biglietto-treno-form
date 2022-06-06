@@ -37,7 +37,7 @@ generateButton.addEventListener('click',
     offertType.innerHTML = OffertTypes;
     cabNumber.innerHTML = Math.floor(Math.random() * 11);
     codeCp.innerHTML = Math.floor(Math.random() * 80000) + 40000;
-    ticketPrice.innerHTML = finalPrice.toFixed(2)
+    ticketPrice.innerHTML = finalPrice.toFixed(2) + "\u20AC";
 
     // ADDING CLASS TO SHOW TICKET
     document.querySelector('.mb-ticket').classList.add('active');

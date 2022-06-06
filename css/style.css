@@ -1,7 +1,7 @@
 /* GENERAL */
 body{
   background-color: #b91450;
- 
+  font-weight: 700;
   text-align: center;
 }
 
@@ -13,10 +13,9 @@ button{
   font-size: 18px;
 }
 
-button:hover{
+button:focus{
   border: 2px solid orange;
 }
-
 
 /* Container */
 .mb-container-small{
@@ -86,14 +85,22 @@ h5.title{
   text-align: center;
 }
 
-.mb-ticket-alignment{
+.mb-ticket-alignment-bottom{
   padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.mb-ticket-alignment{
+  padding-top: 20px;
+  font-weight: 700;
 }
 
 .mb-ticket-color{
   background-color: grey;
 }
 
+/* Ticket show and hide */
 .mb-ticket{
   display: none;
 }
@@ -101,4 +108,3 @@ h5.title{
 .mb-ticket.active{
   display: block;
 }
-
