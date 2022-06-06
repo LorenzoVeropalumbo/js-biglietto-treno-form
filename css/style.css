@@ -5,6 +5,19 @@ body{
   text-align: center;
 }
 
+button{
+  color: #b91450;
+  font-weight: 700;
+  border: 1px solid gray;
+  border-radius: 7px;
+  font-size: 18px;
+}
+
+button:hover{
+  border: 2px solid orange;
+}
+
+
 /* Container */
 .mb-container-small{
   max-width: 900px;
@@ -59,7 +72,7 @@ h5.title{
 }
 
 .mb-text-label{
-  color: #e85870;
+  color: #b91450;
   font-weight: 500;
 }
 
@@ -68,7 +81,7 @@ h5.title{
   padding: 2px 2px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #e85870;
+  border: 1px solid #b91450;
   border-radius: 5px;
   text-align: center;
 }
